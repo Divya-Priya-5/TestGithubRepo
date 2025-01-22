@@ -1,5 +1,10 @@
 package testpackage;
 
-public class TestClass {
+import org.testng.annotations.Test;
 
+public class TestClass {
+	@Test
+	void test1() {
+		System.out.println("Method 1");
+	}
 }

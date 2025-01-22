@@ -1,5 +1,11 @@
 package testpackage;
 
-public class Class2 {
+import org.testng.annotations.Test;
 
+public class Class2 {
+	
+	@Test
+	void searchproduct() {
+		System.out.println("I am searchproduct");
+	}
 }
